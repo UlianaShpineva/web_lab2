@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+<!--    <servlet>-->
+<!--        <servlet-name>resultPage</servlet-name>-->
+<!--        <jsp-file>/resultPage.jsp</jsp-file>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>resultPage</servlet-name>-->
+<!--        <url-pattern>/result</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>errorPage</servlet-name>-->
+<!--        <jsp-file>/errorPage.jsp</jsp-file>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>errorPage</servlet-name>-->
+<!--        <url-pattern>/error</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+    <session-config>
+        <session-timeout>15</session-timeout>
+    </session-config>
+
+</web-app>
